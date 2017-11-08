@@ -1,6 +1,6 @@
 package com.siq.rfidpoc;
 
-public class main {
+public class rfidpoc {
 
     public static void main( String[] args )
     {
