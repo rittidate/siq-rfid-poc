@@ -10,10 +10,10 @@ import com.impinj.octane.Tag;
 import java.util.Scanner;
 
 public class AwsIotConnector {
-    private static final String clientEndpoint = "a2454bnq205u0a.iot.us-east-1.amazonaws.com";       // replace <prefix> and <region> with your own
-    private static final String clientId = "05908b7e3707b8d7da94ae22d8ac5585d587ce22daaaefedafe498a555547ff9";                              // replace with your own client ID. Use unique client IDs for concurrent connections.
-    private static final String certificateFile = "05908b7e37-certificate.pem.crt";                       // X.509 based certificate file
-    private static final String privateKeyFile = "05908b7e37-private.pem.key";
+    private static final String clientEndpoint = "a2454bnq205u0a.iot.us-east-2.amazonaws.com";       // replace <prefix> and <region> with your own
+    private static final String clientId = "bfcfe360442def4c701e4f001f6634c45d27a6748e605ead9bf90d56df0511bb";                              // replace with your own client ID. Use unique client IDs for concurrent connections.
+    private static final String certificateFile = "bfcfe36044-certificate.pem.crt";                       // X.509 based certificate file
+    private static final String privateKeyFile = "bfcfe36044-private.pem.key";
     private static AWSIotMqttClient client;
 
     private static final String topic = "my/siqdb";
